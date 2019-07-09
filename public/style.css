@@ -1,0 +1,86 @@
+body {
+  margin: 0px;
+}
+
+#window-editor {
+  background: #eee;
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  width: 60%;
+}
+
+#window-items {
+  background: #ddd;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  bottom: 0px;
+  width: 40%;
+  overflow: auto;
+}
+
+#paper {
+  padding: 10px;
+  position: absolute;
+  top: 48px;
+  bottom: 12px;
+  left: 12px;
+  right: 12px;
+  white-space: pre;
+  border-radius: 6px;
+  background: #fff;
+  overflow: auto;
+  tab-size: 4;
+  font-family: monospace;
+}
+
+.save {
+  padding: 10px 10px 0px;
+}
+
+#save-input {
+  padding: 5px;
+  background: #dde;
+  border: 2px inset #fff;
+  border-radius: 5px;
+  font-family: monospace;
+}
+
+.save-button {
+  padding: 5px;
+  background: #dde;
+  border: 2px outset #aaa;
+  border-radius: 5px;
+}
+
+.tab {
+  margin: 10px;
+  padding: 5px;
+  border-radius: 5px;
+  background: #def;
+}
+
+.tab-head {
+  padding: 10px;
+  border-radius: 5px;
+  background: #ddf;
+}
+
+.tab-items {
+  padding: 5px;
+  border-radius: 5px;
+  background: #ccf;
+}
+
+.item {
+  padding: 5px;
+  border-radius: 5px;
+  display: inline-block;
+  background: #bff;
+  min-width: 15px;
+  text-align: center;
+  margin: 2px;
+  font-family: monospace;
+  font-weight: bold;
+}
